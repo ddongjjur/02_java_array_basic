@@ -30,6 +30,8 @@ public class ArrayEx16_풀이 {
 		int[] arr = new int[4];
 		boolean[] isCheck = new boolean[4];
 		
+		
+		
 	}
 	
 }

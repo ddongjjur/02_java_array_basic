@@ -1,5 +1,7 @@
 package step2_01.array;
 
+import java.util.Scanner;
+
 /*
  * # 1 to 50[1단계] : 1 to 4
  * 
@@ -27,10 +29,22 @@ public class ArrayEx16_풀이 {
 
 	public static void main(String[] args) {
 		
+		Scanner scan = new Scanner(System.in);
+		
 		int[] arr = new int[4];
 		boolean[] isCheck = new boolean[4];
 		
+		int i = 0;
 		
+		for (i = 0; i < isCheck.length; i++) {
+			int r = scan.nextInt();
+			
+			if (!isCheck[r]) {
+				isCheck[r] = true;
+				arr[i] = r + 1;
+		}
+			
+		}
 		
 	}
 	
